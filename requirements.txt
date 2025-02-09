@@ -3,3 +3,6 @@ langchain-community
 langchain-ollama
 ollama
 streamlit
+faiss-cpu
+PyPDF2
+transformers
