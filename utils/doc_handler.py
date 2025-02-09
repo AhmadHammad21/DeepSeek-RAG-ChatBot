@@ -3,10 +3,7 @@ from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, Te
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_ollama import OllamaEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain_community.retrievers import BM25Retriever
 from langchain.retrievers import EnsembleRetriever
-from utils.build_graph import build_knowledge_graph
-from rank_bm25 import BM25Okapi
 import os
 import re
 
@@ -80,7 +77,6 @@ def process_documents(uploaded_files,reranker,embedding_model, base_url):
         "ensemble": ensemble_retriever,
         "reranker": reranker,  # Now using the global reranker variable
         "texts": text_contents,
-        "knowledge_graph": build_knowledge_graph(texts)  # Store Knowledge Graph
     }
 
     st.session_state.documents_loaded = True
