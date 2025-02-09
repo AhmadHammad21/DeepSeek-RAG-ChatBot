@@ -1,8 +1,10 @@
-from langchain_ollama import OllamaLLM  # ✅ Correct
+from config.settings import PDF_DIRECTORY, EMBEDDING_MODEL_NAME, DEEPMODEL_NAME, TOP_K
+from src.querying.pipeline import QueryPipeline
 
-# Load an Ollama model (e.g., Mistral, Llama3, DeepSeek)
-llm = OllamaLLM(model="deepseek-r1:1.5b")  # Replace with "deepseek-chat" if available in Ollama
+if __name__ == "__main__":
+    pipeline = QueryPipeline(PDF_DIRECTORY, EMBEDDING_MODEL_NAME, DEEPMODEL_NAME, TOP_K)
+    pipeline.setup()
 
-# Ask a question
-response = llm.invoke("What is Retrieval-Augmented Generation (RAG)?")
-print(response)
+    question = "What is the main topic of the documents?"
+    answer = pipeline.query(question)
+    print("Answer:", answer)

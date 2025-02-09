@@ -11,13 +11,16 @@ This chatbot enables **fast, accurate, and explainable retrieval of information*
 ## **🛠️ Installation & Setup**
 ### **1️⃣ Clone the Repository & Install Dependencies**
 ```bash
-git clone 
-cd DeepSeek-RAG-Chatbot
+git clone https://github.com/AhmadHammad21/DeepSeek-RAG-ChatBot
+cd DeepSeek-RAG-ChatBot
+# Windows
 python -m venv venv
+# Linux
+python3 -m venv venv
 # Windows
 venv/Scripts/activate
 # Linux 
-source myenv/bin/activate
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -46,6 +49,10 @@ streamlit run app.py
 3. **DeepSeek-7B Generation:** Produces answers based on the best-matched document chunks.  
 
 ## Enhancements:
+- Add Logging, Exceptions.
+- Add Tests
+- Do docker
+- Make it handle other formats such as (docx, txt, PNG) not just PDFs
 - NOMICS
 - Neural Reranking
 - HyDE
