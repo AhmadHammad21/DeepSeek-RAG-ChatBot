@@ -49,9 +49,11 @@ streamlit run app.py
 3. **DeepSeek-7B Generation:** Produces answers based on the best-matched document chunks.  
 
 ## Enhancements:
-- Add Logging, Exceptions.
+- Chek the other 
+- Interactive chat
 - Add Tests
-- Do docker
+- fastapi
+- Add docker
 - Make it handle other formats such as (docx, txt, PNG) not just PDFs
 - NOMICS
 - Neural Reranking

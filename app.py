@@ -7,10 +7,10 @@ from langchain_core.prompts import (
     AIMessagePromptTemplate,
     ChatPromptTemplate
 )
-from config.settings import PDF_DIRECTORY, EMBEDDING_MODEL_NAME, DEEPMODEL_NAME, TOP_K
+from config.settings import PDF_DIRECTORY, EMBEDDING_MODEL_NAME, LLM_MODEL_NAME, TOP_K
 from src.querying.pipeline import QueryPipeline
 
-rag_pipeline = QueryPipeline(PDF_DIRECTORY, EMBEDDING_MODEL_NAME, DEEPMODEL_NAME, TOP_K)
+rag_pipeline = QueryPipeline(PDF_DIRECTORY, EMBEDDING_MODEL_NAME, LLM_MODEL_NAME, TOP_K)
 rag_pipeline.setup()
 
 # Custom CSS styling
