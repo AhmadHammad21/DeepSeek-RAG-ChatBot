@@ -1,6 +1,9 @@
 # settings.py
 PDF_DIRECTORY = "data/docs"
 PROCESSED_DIRECTORY = "data/processed"
-EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-DEEPMODEL_NAME = "deepseek-r1:7b"
+EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+LLM_MODEL_NAME = "deepseek-r1:7b"
+VECTOR_STORE_PATH = "data/faiss_index"
 TOP_K = 3
+CHUNK_SIZE = 1000
+CHUNK_OVERLAP = 200
