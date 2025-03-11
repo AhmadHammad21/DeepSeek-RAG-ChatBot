@@ -198,3 +198,476 @@ Answer: The main topic of the PDFs is Desaisiv's advanced insurance platform tha
 2025-03-03 21:50:30 - INFO - Storing embeddings...
 2025-03-03 21:50:38 - INFO - Loading vector store...
 2025-03-03 21:50:38 - INFO - Pipeline is ready.
+2025-03-11 21:12:31 - INFO - Loading PDFs...
+2025-03-11 21:12:31 - INFO - Splitting text into chunks...
+2025-03-11 21:12:31 - INFO - Storing embeddings...
+2025-03-11 21:13:02 - INFO - Loading PDFs...
+2025-03-11 21:13:03 - INFO - Splitting text into chunks...
+2025-03-11 21:13:03 - INFO - Storing embeddings...
+2025-03-11 21:13:22 - INFO - Loading vector store...
+2025-03-11 21:13:22 - INFO - Pipeline is ready.
+2025-03-11 21:13:57 - INFO - Processing query: who is desaisiv?
+2025-03-11 21:13:57 - INFO - Processing query: who is desaisiv?
+2025-03-11 21:13:57 - INFO - Processing query: who is desaisiv?
+2025-03-11 21:45:28 - INFO - Loading PDFs...
+2025-03-11 21:45:28 - INFO - Splitting text into chunks...
+2025-03-11 21:45:28 - INFO - Storing embeddings...
+2025-03-11 21:45:35 - INFO - Loading vector store...
+2025-03-11 21:45:36 - INFO - Pipeline is Ready!
+2025-03-11 21:45:36 - INFO - Processing query: What is the main topic of the PDFs?
+2025-03-11 21:45:44 - INFO - Response <think>
+Okay, I need to figure out the main topic of the provided PDF content. Let me read through it carefully.
+
+First, the context starts by mentioning that Desaisiv, an insurance company in Saudi Arabia, developed a platform to help insurers revise offers, negotiate terms, and finalize agreements with clients. It also talks about streamlining the quotation process and provider comparison. 
+
+The required files section lists Claims Experience, Active List, Raw Data (optional), and Providers List, explaining their use.
+
+The support contact details are given at the end.
+
+Looking further down, the company's description confirms it's a Saudi Arabian tech company specializing in health insurance management, offering a platform to help with reinsurance pricing, performance monitoring, etc.
+
+There are several questions about Desaisiv: whether it's an intermediary or a reinsurer, if it's a startup, its role in reinsurance, and specific features like Claims Experience Analytics. The answers clarify that while the platform assists both insurers and TPAs, it isn't an intermediary but rather a service provider helping them manage their reinsurance needs.
+
+The key features include Claims Experience Analytics, Quotation Comparison, and Request New Quotation, which show how Desaisiv helps companies analyze claims data for pricing, compare quotes from different reinsurers, and get tailored offers.
+
+So the main topic is about Desaisiv's insurance platform designed to assist with reinsurance processes through its various features like analytics, quotation tools, and provider comparison.
+</think>
+
+The main topic of the PDF content is **Desaisiv's insurance platform**, which provides a comprehensive suite of tools for managing health insurance processes. This includes features such as Claims Experience Analytics for historical claims analysis, Quotation Comparison to assess different insurance offers, and Provider Comparison to evaluate network options. The platform aims to streamline reinsurance pricing, performance monitoring, and overall decision-making by reducing manual effort and enhancing transparency among all parties involved.
+2025-03-11 21:49:05 - INFO - Loading PDFs...
+2025-03-11 21:49:06 - INFO - Splitting text into chunks...
+2025-03-11 21:49:06 - INFO - Storing embeddings...
+2025-03-11 21:49:14 - INFO - Loading vector store...
+2025-03-11 21:49:14 - INFO - Pipeline is ready.
+2025-03-11 21:49:47 - INFO - Processing query: How can desaisiv help my health insurance policy?
+2025-03-11 21:49:47 - INFO - Processing query: How can desaisiv help my health insurance policy?
+2025-03-11 21:49:47 - INFO - Processing query: How can desaisiv help my health insurance policy?
+2025-03-11 21:57:39 - INFO - Loading PDFs...
+2025-03-11 21:57:39 - INFO - Loading PDFs...
+2025-03-11 21:57:39 - INFO - Loading PDFs...
+2025-03-11 21:57:39 - INFO - Loading PDFs...
+2025-03-11 21:57:39 - INFO - Splitting text into chunks...
+2025-03-11 21:57:39 - INFO - Splitting text into chunks...
+2025-03-11 21:57:39 - INFO - Splitting text into chunks...
+2025-03-11 21:57:39 - INFO - Splitting text into chunks...
+2025-03-11 21:57:39 - INFO - Storing embeddings...
+2025-03-11 21:57:39 - INFO - Storing embeddings...
+2025-03-11 21:57:39 - INFO - Storing embeddings...
+2025-03-11 21:57:39 - INFO - Storing embeddings...
+2025-03-11 21:57:41 - INFO - Loading vector store...
+2025-03-11 21:57:41 - INFO - Loading vector store...
+2025-03-11 21:57:41 - INFO - Loading vector store...
+2025-03-11 21:57:41 - INFO - Loading vector store...
+2025-03-11 21:57:41 - INFO - Pipeline is ready.
+2025-03-11 21:57:41 - INFO - Pipeline is ready.
+2025-03-11 21:57:41 - INFO - Pipeline is ready.
+2025-03-11 21:57:41 - INFO - Pipeline is ready.
+2025-03-11 21:57:45 - INFO - Processing query: Hi
+2025-03-11 21:57:45 - INFO - Processing query: Hi
+2025-03-11 21:57:45 - INFO - Processing query: Hi
+2025-03-11 21:57:45 - INFO - Processing query: Hi
+2025-03-11 21:57:45 - INFO - Processing query: Hi
+2025-03-11 21:57:45 - ERROR - Query processing failed: RAGPipeline.retrieve_and_generate() got an unexpected keyword argument 'context'
+2025-03-11 21:57:45 - ERROR - Query processing failed: RAGPipeline.retrieve_and_generate() got an unexpected keyword argument 'context'
+2025-03-11 21:57:45 - ERROR - Query processing failed: RAGPipeline.retrieve_and_generate() got an unexpected keyword argument 'context'
+2025-03-11 21:57:45 - ERROR - Query processing failed: RAGPipeline.retrieve_and_generate() got an unexpected keyword argument 'context'
+2025-03-11 21:57:45 - ERROR - Query processing failed: RAGPipeline.retrieve_and_generate() got an unexpected keyword argument 'context'
+2025-03-11 21:59:03 - INFO - Processing query: who is desaisiv?
+2025-03-11 21:59:03 - INFO - Processing query: who is desaisiv?
+2025-03-11 21:59:03 - INFO - Processing query: who is desaisiv?
+2025-03-11 21:59:03 - INFO - Processing query: who is desaisiv?
+2025-03-11 21:59:03 - INFO - Processing query: who is desaisiv?
+2025-03-11 21:59:03 - INFO - Processing query: who is desaisiv?
+2025-03-11 21:59:03 - ERROR - Query processing failed: RAGPipeline.retrieve_and_generate() got an unexpected keyword argument 'context'
+2025-03-11 21:59:03 - ERROR - Query processing failed: RAGPipeline.retrieve_and_generate() got an unexpected keyword argument 'context'
+2025-03-11 21:59:03 - ERROR - Query processing failed: RAGPipeline.retrieve_and_generate() got an unexpected keyword argument 'context'
+2025-03-11 21:59:03 - ERROR - Query processing failed: RAGPipeline.retrieve_and_generate() got an unexpected keyword argument 'context'
+2025-03-11 21:59:03 - ERROR - Query processing failed: RAGPipeline.retrieve_and_generate() got an unexpected keyword argument 'context'
+2025-03-11 21:59:03 - ERROR - Query processing failed: RAGPipeline.retrieve_and_generate() got an unexpected keyword argument 'context'
+2025-03-11 22:06:22 - INFO - Processing query: Hello
+2025-03-11 22:06:22 - INFO - Processing query: Hello
+2025-03-11 22:06:22 - INFO - Processing query: Hello
+2025-03-11 22:06:22 - INFO - Processing query: Hello
+2025-03-11 22:06:22 - INFO - Processing query: Hello
+2025-03-11 22:06:22 - INFO - Processing query: Hello
+2025-03-11 22:06:22 - INFO - Processing query: Hello
+2025-03-11 22:06:22 - INFO - Processing query: Hello
+2025-03-11 22:06:53 - INFO - Processing query: my name is ahmad, how was your day?
+2025-03-11 22:06:53 - INFO - Processing query: my name is ahmad, how was your day?
+2025-03-11 22:06:53 - INFO - Processing query: my name is ahmad, how was your day?
+2025-03-11 22:06:53 - INFO - Processing query: my name is ahmad, how was your day?
+2025-03-11 22:06:53 - INFO - Processing query: my name is ahmad, how was your day?
+2025-03-11 22:06:53 - INFO - Processing query: my name is ahmad, how was your day?
+2025-03-11 22:06:53 - INFO - Processing query: my name is ahmad, how was your day?
+2025-03-11 22:06:53 - INFO - Processing query: my name is ahmad, how was your day?
+2025-03-11 22:06:53 - INFO - Processing query: my name is ahmad, how was your day?
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:16:27 - INFO - Processing query: Hello
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:17:22 - INFO - Processing query: my name is ahmad hammad, working as a HR wand want to help my company with insurance, can you help me?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:18:12 - INFO - Processing query: what's my name?
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:27:18 - INFO - Processing query: Hello
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:28:19 - INFO - Processing query: Hello, how is your day?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:30:19 - INFO - Processing query: My name is Ahmad Hammad, and I work as an HR, how can desaisiv help me company?
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:12 - INFO - Processing query: what's my name
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:31:31 - INFO - Processing query: I just told you it's Ahmad and I work as HR
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:32:42 - INFO - Processing query: Hi
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:05 - INFO - Processing query: Hello, my name is ahmad hammad and I work as an HR\
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:36:25 - INFO - Processing query: What's my name?
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:13 - INFO - Processing query: my name is ahmad hammad and I work as an HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:37:57 - INFO - Processing query: hi, my name is ahmad hammad and I work as HR
+2025-03-11 22:39:44 - INFO - Loading PDFs...
+2025-03-11 22:39:44 - INFO - Splitting text into chunks...
+2025-03-11 22:39:44 - INFO - Storing embeddings...
+2025-03-11 22:39:52 - INFO - Loading vector store...
+2025-03-11 22:39:52 - INFO - Pipeline is ready.
+2025-03-11 22:40:03 - INFO - Processing query: Hello my name is ahmad hammad, and I work as HR
+2025-03-11 22:40:03 - INFO - Processing query: Hello my name is ahmad hammad, and I work as HR
+2025-03-11 22:40:29 - INFO - Processing query: what's my name?
+2025-03-11 22:40:29 - INFO - Processing query: what's my name?
+2025-03-11 22:40:29 - INFO - Processing query: what's my name?
+2025-03-11 22:40:29 - INFO - Processing query: what's my name?
+2025-03-11 22:40:44 - INFO - Processing query: isnt my name ahmad?
+2025-03-11 22:40:44 - INFO - Processing query: isnt my name ahmad?
+2025-03-11 22:40:44 - INFO - Processing query: isnt my name ahmad?
+2025-03-11 22:40:44 - INFO - Processing query: isnt my name ahmad?
+2025-03-11 22:40:44 - INFO - Processing query: isnt my name ahmad?
+2025-03-11 22:40:44 - INFO - Processing query: isnt my name ahmad?
+2025-03-11 22:43:37 - INFO - Loading PDFs...
+2025-03-11 22:43:37 - INFO - Splitting text into chunks...
+2025-03-11 22:43:37 - INFO - Storing embeddings...
+2025-03-11 22:43:45 - INFO - Loading vector store...
+2025-03-11 22:43:45 - INFO - Pipeline is ready.
+2025-03-11 22:43:57 - INFO - Processing query: Hello, how can Desaisiv help me?
+2025-03-11 22:43:57 - INFO - Processing query: Hello, how can Desaisiv help me?
+2025-03-11 22:45:45 - INFO - Processing query: Hello
+2025-03-11 22:45:45 - INFO - Processing query: Hello
+2025-03-11 22:45:45 - INFO - Processing query: Hello
+2025-03-11 22:45:45 - INFO - Processing query: Hello
