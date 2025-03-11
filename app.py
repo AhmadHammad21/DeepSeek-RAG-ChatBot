@@ -1,17 +1,26 @@
 import streamlit as st
-from langchain_ollama import ChatOllama
-from langchain_core.output_parsers import StrOutputParser
+from src.loaders.pdf_loader import PDFLoader
+from src.processors.text_processor import TextProcessor
+from src.embeddings.vector_store import VectorStore
+from src.retrieval.rag_pipeline import RAGPipeline
+from src.utils.logger import get_logger
+from src.utils.exceptions import PDFLoadError
+from config.settings import (
+    PDF_DIRECTORY, EMBEDDING_MODEL_NAME, LLM_MODEL_NAME, VECTOR_STORE_PATH,
+    CHUNK_SIZE, CHUNK_OVERLAP
+)
 from langchain_core.prompts import (
     SystemMessagePromptTemplate,
     HumanMessagePromptTemplate,
     AIMessagePromptTemplate,
     ChatPromptTemplate
 )
-from config.settings import PDF_DIRECTORY, EMBEDDING_MODEL_NAME, LLM_MODEL_NAME, TOP_K
-from src.querying.pipeline import QueryPipeline
+from dotenv import load_dotenv
 
-rag_pipeline = QueryPipeline(PDF_DIRECTORY, EMBEDDING_MODEL_NAME, LLM_MODEL_NAME, TOP_K)
-rag_pipeline.setup()
+load_dotenv()
+
+# Set up logger
+logger = get_logger(__name__)
 
 # Custom CSS styling
 st.markdown("""
@@ -59,19 +68,46 @@ with st.sidebar:
     st.divider()
     st.markdown("### Model Capabilities")
     st.markdown("""
-    - 🐍 Python Expert
-    - 🐞 Debugging Assistant
-    - 📝 Code Documentation
-    - 💡 Solution Design
+    - 🐍 ChatBot Assistant
+    - 🐞 Desaisiv
+    - 📝 Health Insurance Solutions
     """)
     st.divider()
     st.markdown("Built with [Ollama](https://ollama.ai/) | [LangChain](https://python.langchain.com/)")
+    
+# Initialize RAG pipeline only once
+@st.cache_resource
+def initialize_rag_pipeline():
+    logger.info("Loading PDFs...")
+    pdf_loader = PDFLoader(PDF_DIRECTORY)
+    pdf_docs = pdf_loader.load_pdfs()
+    if not pdf_docs:
+        raise PDFLoadError("No PDFs found in the directory.")
 
-llm_engine = ChatOllama(
-    model=DEEPMODEL_NAME,
-    base_url="http://localhost:11434",
-    temperature=0.3
-)
+    logger.info("Splitting text into chunks...")
+    text_processor = TextProcessor(CHUNK_SIZE, CHUNK_OVERLAP)
+    documents = text_processor.split_documents(pdf_docs)
+
+    logger.info("Storing embeddings...")
+    vector_store = VectorStore(EMBEDDING_MODEL_NAME)
+    vector_store.build_vector_store(documents)
+    vector_store.save_vector_store(VECTOR_STORE_PATH)
+
+    logger.info("Loading vector store...")
+    vector_store.load_vector_store(VECTOR_STORE_PATH)
+    rag = RAGPipeline(vector_store, model_name=LLM_MODEL_NAME)
+
+    logger.info("Pipeline is ready.")
+    return rag
+
+
+# Streamlit UI
+st.title("RAG PDF Chat System")
+
+# Load the pipeline
+if 'rag_pipeline' not in st.session_state:
+    st.session_state.rag_pipeline = initialize_rag_pipeline()
+
 
 # # System prompt configuration
 system_prompt = SystemMessagePromptTemplate.from_template(
@@ -92,15 +128,6 @@ with chat_container:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
-# Chat input and processing
-user_query = st.chat_input("Type your coding question here...")
-
-def generate_ai_response(prompt_chain, context):
-    # Combine the prompt chain with the retrieved context
-    full_prompt = f"{prompt_chain}\n\nContext:\n{context}"
-    processing_pipeline = llm_engine | StrOutputParser()
-    return processing_pipeline.invoke(full_prompt)
-
 def build_prompt_chain():
     prompt_sequence = [system_prompt]
     for msg in st.session_state.message_log:
@@ -110,21 +137,25 @@ def build_prompt_chain():
             prompt_sequence.append(AIMessagePromptTemplate.from_template(msg["content"]))
     return ChatPromptTemplate.from_messages(prompt_sequence)
 
-if user_query:
-    # Add user message to log
-    st.session_state.message_log.append({"role": "user", "content": user_query})
-    
-    # Retrieve relevant documents using the RAG pipeline
-    with st.spinner("🔍 Searching for relevant information..."):
-        retrieved_context = rag_pipeline.query(user_query)
-    
-    # Generate AI response using the retrieved context
+# User input
+query = st.chat_input("Enter your message...")
+
+if query:
+    # Display user message
+    st.session_state.message_log.append({"role": "user", "content": query})
+
+    with st.chat_message("user"):
+        st.markdown(query)
+
+    logger.info(f"Processing query: {query}")
     with st.spinner("🧠 Processing..."):
         prompt_chain = build_prompt_chain()
-        ai_response = generate_ai_response(prompt_chain, retrieved_context)
-    
+        print("prompt_chain")
+        print(prompt_chain)
+        response = st.session_state.rag_pipeline.retrieve_and_generate_history(query, prompt_chain)
+
     # Add AI response to log
-    st.session_state.message_log.append({"role": "ai", "content": ai_response})
+    st.session_state.message_log.append({"role": "ai", "content": response})
     
     # Rerun to update chat display
     st.rerun()
