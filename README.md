@@ -55,7 +55,6 @@ Installation on # Linux/macOS:
 curl -fsSL https://ollama.com/install.sh | sh
 
 ```
-Check out this link
 
 Pull the required model:
 ```bash
