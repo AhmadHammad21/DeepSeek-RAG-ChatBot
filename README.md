@@ -106,7 +106,7 @@ docker run -p 8000:8000 rag-api
 
 - Run the Application: Start the Streamlit UI or FastAPI server.
 
-= Retrieval & Generation: The chatbot retrieves the most relevant document chunks and generates responses using `DeepSeek-7B`.
+- Retrieval & Generation: The chatbot retrieves the most relevant document chunks and generates responses using `DeepSeek-7B`.
 
 ### Future Enhancements
 
