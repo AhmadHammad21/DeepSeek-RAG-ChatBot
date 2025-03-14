@@ -1,29 +1,39 @@
-### 🚀 DeepSeek RAG Chatbot
+# 🚀 DeepSeek RAG Chatbot
 **100% Open Source | Local PC Installation**
 
-### 🔥 DeepSeek RAG: The Ultimate RAG Stack!
+## 🔥 DeepSeek RAG: The Ultimate RAG Stack!
 
-This chatbot enables fast, accurate, and explainable retrieval of information from PDFs using DeepSeek-7B, FAISS, and Chat History Integration.
+The **DeepSeek RAG Chatbot** is a powerful tool designed for fast, accurate, and explainable retrieval of information from PDFs. Leveraging **DeepSeek-7B**, **FAISS**, and **Chat History Integration**, this chatbot provides a seamless experience for document-based question answering and information retrieval.
 
-### 🛠️ Installation & Setup
+---
 
-1️⃣ Clone the Repository & Install Dependencies
+## 🛠️ Installation & Setup
 
+### 1️⃣ Clone the Repository & Install Dependencies
+
+```bash
 # Clone the repository
 git clone https://github.com/AhmadHammad21/DeepSeek-RAG-ChatBot
 cd DeepSeek-RAG-ChatBot
+```
 
 # Create and activate a virtual environment
-# Windows
+### Windows
+```bash
 python -m venv venv
 venv/Scripts/activate
+```
 
-# Linux/macOS
+### Linux/macOS
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
+```bash
 # Install dependencies
 pip install -r requirements.txt
+```
 
 ### 2️⃣ Install & Set Up Ollama
 
