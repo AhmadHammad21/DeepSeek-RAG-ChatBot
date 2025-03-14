@@ -67,7 +67,7 @@ LANGSMITH_PROJECT="YOUR_PROJECT_NAME"
 streamlit run app.py
 ```
 🖼️ Example:
-[Streamlit UI Screenshot](images/streamlit.png)
+![Streamlit UI Screenshot](images/streamlit.png)
 
 
 ### Run the FastAPI Server
@@ -76,7 +76,7 @@ uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 📌 Access Swagger API Documentation: http://localhost:8000/docs
 🖼️ Example:
-[Swagger UI Screenshot](images/swagger.png)
+![Swagger UI Screenshot](images/swagger.png)
 
 
 ### Run via Docker
@@ -88,22 +88,22 @@ docker build -t rag-api .
 docker run -p 8000:8000 rag-api
 ```
 
-📌 How It Works
+## How It Works
 
-Upload Documents: Place your PDFs in the data/docs/ directory.
+- Upload Documents: Place your PDFs in the `data/docs/ ` directory.
 
-Run the Application: Start the Streamlit UI or FastAPI server.
+- Run the Application: Start the Streamlit UI or FastAPI server.
 
-Retrieval & Generation: The chatbot retrieves the most relevant document chunks and generates responses using DeepSeek-7B.
+= Retrieval & Generation: The chatbot retrieves the most relevant document chunks and generates responses using `DeepSeek-7B`.
 
-🔮 Future Enhancements
+### Future Enhancements
 
-📂 Support additional document formats (DOCX, TXT, etc.).
+- 📂 Support additional document formats (DOCX, TXT, etc.).
 
-🔍 Implement Neural Reranking for improved search accuracy.
+- 🔍 Implement Neural Reranking for improved search accuracy.
 
-🤖 Explore HyDE (Hypothetical Document Embeddings).
+- 🤖 Explore HyDE (Hypothetical Document Embeddings).
 
-🕸️ Integrate GraphRAG for enhanced knowledge structuring.
+- 🕸️ Integrate GraphRAG for enhanced knowledge structuring.
 
-📌 Contributions Welcome! 🚀 Feel free to fork, improve, and submit pull requests. Happy coding! 🎯
+- 📌 Contributions Welcome! 🚀 Feel free to fork, improve, and submit pull requests. Happy coding! 🎯
