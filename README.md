@@ -109,6 +109,8 @@ docker run -p 8000:8000 rag-api
 
 ### Future Enhancements
 
+- 💻 Fine-Tune the DeepSeek Model.
+
 - 📂 Support additional document formats (DOCX, TXT, etc.).
 
 - 🔍 Implement Neural Reranking for improved search accuracy.
