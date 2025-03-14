@@ -16,7 +16,7 @@ from langchain_core.prompts import (
     ChatPromptTemplate
 )
 from dotenv import load_dotenv
-
+import time
 load_dotenv()
 
 # Set up logger
@@ -64,19 +64,18 @@ st.caption("🚀 Your AI Assistant")
 
 # Sidebar configuration
 with st.sidebar:
-    st.header("⚙️ Configuration")   
-    st.divider()
     st.markdown("### Model Capabilities")
     st.markdown("""
     - 🐍 ChatBot Assistant
-    - 🐞 Desaisiv
-    - 📝 Health Insurance Solutions
+    - 🤖 RAG + Chat History Integration 
+    - 📝 PDF Understanding
+    - ❓ Question Answering
     """)
     st.divider()
     st.markdown("Built with [Ollama](https://ollama.ai/) | [LangChain](https://python.langchain.com/)")
     
 # Initialize RAG pipeline only once
-@st.cache_resource
+@st.cache_resource(show_spinner=False)
 def initialize_rag_pipeline():
     logger.info("Loading PDFs...")
     pdf_loader = PDFLoader(PDF_DIRECTORY)
@@ -117,7 +116,7 @@ system_prompt = SystemMessagePromptTemplate.from_template(
 
 # Session state management
 if "message_log" not in st.session_state:
-    st.session_state.message_log = [{"role": "ai", "content": "Hi! I'm DeepSeek. How can I help you code today?"}]
+    st.session_state.message_log = [{"role": "ai", "content": "Hi! I'm DeepSeek. How can I help you today?"}]
 
 # Chat container
 chat_container = st.container()
@@ -150,12 +149,22 @@ if query:
     logger.info(f"Processing query: {query}")
     with st.spinner("🧠 Processing..."):
         prompt_chain = build_prompt_chain()
-        print("prompt_chain")
-        print(prompt_chain)
         response = st.session_state.rag_pipeline.retrieve_and_generate_history(query, prompt_chain)
+
+    # Typing effect for AI response
+    with st.chat_message("ai"):
+        ai_message_placeholder = st.empty()
+        ai_response = ""
+
+        for char in response:
+            ai_response += char
+            ai_message_placeholder.markdown(ai_response + "▌")  # Cursor effect
+            time.sleep(0.02)  # Adjust speed of typing effect
+
+        ai_message_placeholder.markdown(ai_response)  # Remove cursor at the end
 
     # Add AI response to log
     st.session_state.message_log.append({"role": "ai", "content": response})
-    
+
     # Rerun to update chat display
     st.rerun()

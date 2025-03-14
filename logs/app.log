@@ -671,3 +671,133 @@ The main topic of the PDF content is **Desaisiv's insurance platform**, which pr
 2025-03-11 22:45:45 - INFO - Processing query: Hello
 2025-03-11 22:45:45 - INFO - Processing query: Hello
 2025-03-11 22:45:45 - INFO - Processing query: Hello
+2025-03-14 18:51:10 - INFO - Loading PDFs...
+2025-03-14 18:51:10 - INFO - Splitting text into chunks...
+2025-03-14 18:51:10 - INFO - Storing embeddings...
+2025-03-14 18:51:25 - INFO - Loading vector store...
+2025-03-14 18:51:25 - INFO - Pipeline is ready.
+2025-03-14 18:51:58 - INFO - Processing query: Hello !
+2025-03-14 18:51:58 - INFO - Processing query: Hello !
+2025-03-14 18:58:21 - INFO - Processing query: Hello, my name is ahmad hammad
+2025-03-14 18:58:21 - INFO - Processing query: Hello, my name is ahmad hammad
+2025-03-14 18:58:21 - INFO - Processing query: Hello, my name is ahmad hammad
+2025-03-14 18:58:21 - INFO - Processing query: Hello, my name is ahmad hammad
+2025-03-14 18:58:21 - INFO - Processing query: Hello, my name is ahmad hammad
+2025-03-14 18:59:21 - INFO - Loading PDFs...
+2025-03-14 18:59:21 - INFO - Splitting text into chunks...
+2025-03-14 18:59:21 - INFO - Storing embeddings...
+2025-03-14 18:59:31 - INFO - Loading vector store...
+2025-03-14 18:59:31 - INFO - Pipeline is ready.
+2025-03-14 18:59:43 - INFO - Processing query: Hello
+2025-03-14 18:59:43 - INFO - Processing query: Hello
+2025-03-14 19:04:51 - INFO - Processing query: hi
+2025-03-14 19:04:51 - INFO - Processing query: hi
+2025-03-14 19:04:51 - INFO - Processing query: hi
+2025-03-14 19:04:51 - INFO - Processing query: hi
+2025-03-14 19:04:51 - INFO - Processing query: hi
+2025-03-14 19:05:31 - INFO - Processing query: so desaisiv can help my helath insurance quotation?
+2025-03-14 19:05:31 - INFO - Processing query: so desaisiv can help my helath insurance quotation?
+2025-03-14 19:05:31 - INFO - Processing query: so desaisiv can help my helath insurance quotation?
+2025-03-14 19:05:31 - INFO - Processing query: so desaisiv can help my helath insurance quotation?
+2025-03-14 19:05:31 - INFO - Processing query: so desaisiv can help my helath insurance quotation?
+2025-03-14 19:05:31 - INFO - Processing query: so desaisiv can help my helath insurance quotation?
+2025-03-14 19:05:31 - INFO - Processing query: so desaisiv can help my helath insurance quotation?
+2025-03-14 19:11:23 - INFO - Loading PDFs...
+2025-03-14 19:11:23 - INFO - Splitting text into chunks...
+2025-03-14 19:11:23 - INFO - Storing embeddings...
+2025-03-14 19:11:31 - INFO - Loading vector store...
+2025-03-14 19:11:32 - INFO - Pipeline is ready.
+2025-03-14 19:11:52 - INFO - Processing query: Hi my name is ahmad, with few words how can desaisiv help my company?
+2025-03-14 19:11:52 - INFO - Processing query: Hi my name is ahmad, with few words how can desaisiv help my company?
+2025-03-14 19:13:34 - INFO - Processing query: I forgot what's my name again?
+2025-03-14 19:13:34 - INFO - Processing query: I forgot what's my name again?
+2025-03-14 19:13:34 - INFO - Processing query: I forgot what's my name again?
+2025-03-14 19:13:34 - INFO - Processing query: I forgot what's my name again?
+2025-03-14 19:19:30 - INFO - Processing query: Not desaisiv what's my name based on previosu response?
+2025-03-14 19:19:30 - INFO - Processing query: Not desaisiv what's my name based on previosu response?
+2025-03-14 19:19:30 - INFO - Processing query: Not desaisiv what's my name based on previosu response?
+2025-03-14 19:19:30 - INFO - Processing query: Not desaisiv what's my name based on previosu response?
+2025-03-14 19:19:30 - INFO - Processing query: Not desaisiv what's my name based on previosu response?
+2025-03-14 19:19:30 - INFO - Processing query: Not desaisiv what's my name based on previosu response?
+2025-03-14 19:19:57 - INFO - Processing query: was my name ahmad hammad?
+2025-03-14 19:19:57 - INFO - Processing query: was my name ahmad hammad?
+2025-03-14 19:19:57 - INFO - Processing query: was my name ahmad hammad?
+2025-03-14 19:19:57 - INFO - Processing query: was my name ahmad hammad?
+2025-03-14 19:19:57 - INFO - Processing query: was my name ahmad hammad?
+2025-03-14 19:19:57 - INFO - Processing query: was my name ahmad hammad?
+2025-03-14 19:19:57 - INFO - Processing query: was my name ahmad hammad?
+2025-03-14 19:19:57 - INFO - Processing query: was my name ahmad hammad?
+2025-03-14 19:21:12 - INFO - Processing query: My name is ahmad hammad, how are you?
+2025-03-14 19:21:12 - INFO - Processing query: My name is ahmad hammad, how are you?
+2025-03-14 19:21:12 - INFO - Processing query: My name is ahmad hammad, how are you?
+2025-03-14 19:21:12 - INFO - Processing query: My name is ahmad hammad, how are you?
+2025-03-14 19:21:12 - INFO - Processing query: My name is ahmad hammad, how are you?
+2025-03-14 19:21:12 - INFO - Processing query: My name is ahmad hammad, how are you?
+2025-03-14 19:21:12 - INFO - Processing query: My name is ahmad hammad, how are you?
+2025-03-14 19:21:12 - INFO - Processing query: My name is ahmad hammad, how are you?
+2025-03-14 19:21:12 - INFO - Processing query: My name is ahmad hammad, how are you?
+2025-03-14 19:21:12 - INFO - Processing query: My name is ahmad hammad, how are you?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:27 - INFO - Processing query: what's my name?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:22:45 - INFO - Processing query: ahamd hammad, no?
+2025-03-14 19:32:01 - INFO - Loading PDFs...
+2025-03-14 19:32:01 - INFO - Splitting text into chunks...
+2025-03-14 19:32:01 - INFO - Storing embeddings...
+2025-03-14 19:32:09 - INFO - Loading vector store...
+2025-03-14 19:32:09 - INFO - Pipeline is ready.
+2025-03-14 19:33:27 - INFO - Loading PDFs...
+2025-03-14 19:33:27 - INFO - Splitting text into chunks...
+2025-03-14 19:33:27 - INFO - Storing embeddings...
+2025-03-14 19:33:35 - INFO - Loading vector store...
+2025-03-14 19:33:36 - INFO - Pipeline is ready.
+2025-03-14 19:33:39 - INFO - Processing query: Hello
+2025-03-14 19:33:39 - INFO - Processing query: Hello
+2025-03-14 19:37:59 - INFO - Processing query: hello
+2025-03-14 19:37:59 - INFO - Processing query: hello
+2025-03-14 19:37:59 - INFO - Processing query: hello
+2025-03-14 19:37:59 - INFO - Processing query: hello
+2025-03-14 19:37:59 - INFO - Processing query: hello
+2025-03-14 19:38:29 - INFO - Processing query: hello
+2025-03-14 19:38:29 - INFO - Processing query: hello
+2025-03-14 19:38:29 - INFO - Processing query: hello
+2025-03-14 19:38:29 - INFO - Processing query: hello
+2025-03-14 19:38:29 - INFO - Processing query: hello
+2025-03-14 19:38:29 - INFO - Processing query: hello
+2025-03-14 19:38:29 - INFO - Processing query: hello
+2025-03-14 19:39:02 - INFO - Processing query: How can desaisiv help my insurance?
+2025-03-14 19:39:02 - INFO - Processing query: How can desaisiv help my insurance?
+2025-03-14 19:39:02 - INFO - Processing query: How can desaisiv help my insurance?
+2025-03-14 19:39:02 - INFO - Processing query: How can desaisiv help my insurance?
+2025-03-14 19:39:02 - INFO - Processing query: How can desaisiv help my insurance?
+2025-03-14 19:39:02 - INFO - Processing query: How can desaisiv help my insurance?
+2025-03-14 19:39:02 - INFO - Processing query: How can desaisiv help my insurance?
+2025-03-14 19:39:02 - INFO - Processing query: How can desaisiv help my insurance?
+2025-03-14 19:39:02 - INFO - Processing query: How can desaisiv help my insurance?
+2025-03-14 21:04:58 - INFO - Loading PDFs...
+2025-03-14 21:04:58 - INFO - Splitting text into chunks...
+2025-03-14 21:04:58 - INFO - Storing embeddings...
+2025-03-14 21:05:08 - INFO - Loading vector store...
+2025-03-14 21:05:08 - INFO - Pipeline is ready.

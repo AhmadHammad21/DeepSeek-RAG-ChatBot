@@ -1,62 +1,96 @@
-### 🚀 **DeepSeek RAG Chatbot**  
-**(100% Free, Private (No Internet), and Local PC Installation)**  
+### 🚀 DeepSeek RAG Chatbot
+**100% Open Source | Local PC Installation**
 
+### 🔥 DeepSeek RAG: The Ultimate RAG Stack!
 
-🔥 **DeepSeek RAG = The Ultimate RAG Stack!**  
+This chatbot enables fast, accurate, and explainable retrieval of information from PDFs using DeepSeek-7B, FAISS, and Chat History Integration.
 
-This chatbot enables **fast, accurate, and explainable retrieval of information** from PDFs, DOCX, and TXT files using **DeepSeek-7B**, **FAISS** and **Chat History Integration**.  
+### 🛠️ Installation & Setup
 
----
+1️⃣ Clone the Repository & Install Dependencies
 
-## **🛠️ Installation & Setup**
-### **1️⃣ Clone the Repository & Install Dependencies**
-```bash
+# Clone the repository
 git clone https://github.com/AhmadHammad21/DeepSeek-RAG-ChatBot
 cd DeepSeek-RAG-ChatBot
+
+# Create and activate a virtual environment
 # Windows
 python -m venv venv
-# Linux
-python3 -m venv venv
-# Windows
 venv/Scripts/activate
-# Linux 
+
+# Linux/macOS
+python3 -m venv venv
 source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
-```
 
-### **2️⃣ Download & Set Up Ollama**
-on linux curl -fsSL https://ollama.com/install.sh | sh
-Ollama is required to run **DeepSeek-7B** and **Nomic Embeddings** locally.  
-🔗 **Download Ollama** → [https://ollama.com/](https://ollama.com/)  
+### 2️⃣ Install & Set Up Ollama
 
-Then, pull the required models:
-```bash
+Ollama is required to run DeepSeek-7B.
+
+Installation:
+
+# Linux/macOS
+curl -fsSL https://ollama.com/install.sh | sh
+
+🔗 Download Ollama → https://ollama.com/
+
+Pull the required model:
+
 ollama pull deepseek-r1:7b
-or
-ollama pull deepseek-r1:14b
-ollama pull nomic-embed-text
-```
 
-### **3️⃣ Run the Chatbot**
-```bash
+### 3️⃣ (Optional) Enable LangSmith for Model Monitoring
+
+To enable LangSmith tracing, create a .env file and add your API key and project name:
+
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+LANGSMITH_API_KEY="YOUR_API_KEY"
+LANGSMITH_PROJECT="YOUR_PROJECT_NAME"
+
+🚀 Running the Chatbot
+
+Run the Streamlit Chatbot UI
+
 streamlit run app.py
-```
----
 
-## **📌 How It Works**
-1. **Upload Documents:** Add your PDFs, DOCX, or TXT files.  
-2. **Hybrid Retrieval:** Using *FAISS** to fetch the most relevant text.   
-3. **DeepSeek-7B Generation:** Produces answers based on the best-matched document chunks.  
+🖼️ Example:
 
-## Enhancements:
-- Chat Memory
-- Remove "think" from response
-- fastapi
-- Add docker
-- Double check the code in app.py
-- Add Tests
-- Make it handle other formats such as (docx, txt, PNG) not just PDFs
-- NOMICS
-- Neural Reranking
-- HyDE
-- GraphRAG
+
+
+Run the FastAPI Server
+
+uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+
+📌 Access Swagger API Documentation: http://localhost:8000/docs🖼️ Example:
+
+
+
+Run via Docker
+
+# Build the Docker image
+docker build -t rag-api .
+
+# Run the container
+docker run -p 8000:8000 rag-api
+
+📌 How It Works
+
+Upload Documents: Place your PDFs in the data/docs/ directory.
+
+Run the Application: Start the Streamlit UI or FastAPI server.
+
+Retrieval & Generation: The chatbot retrieves the most relevant document chunks and generates responses using DeepSeek-7B.
+
+🔮 Future Enhancements
+
+📂 Support additional document formats (DOCX, TXT, etc.).
+
+🔍 Implement Neural Reranking for improved search accuracy.
+
+🤖 Explore HyDE (Hypothetical Document Embeddings).
+
+🕸️ Integrate GraphRAG for enhanced knowledge structuring.
+
+📌 Contributions Welcome! 🚀 Feel free to fork, improve, and submit pull requests. Happy coding! 🎯

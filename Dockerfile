@@ -1,14 +1,17 @@
-# Use an official Python runtime as a parent image (change 'buster' to 'slim', if needed)
-FROM python:3.11-buster  
+# Use a lightweight Python 3.12 image
+FROM python:3.12-alpine
 
-WORKDIR /usr/src/app  
+WORKDIR /app
 
-COPY requirements.txt ./  
+# Install dependencies
+COPY requirements.txt .  
 RUN pip install --no-cache-dir -r requirements.txt  
 
+# Copy project files
 COPY . .  
 
-EXPOSE 8501  
+# Expose FastAPI port
+EXPOSE 8000  
 
-CMD ["streamlit", "run", "app.py"]  
-
+# Run FastAPI
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
