@@ -9,15 +9,14 @@ The **DeepSeek RAG Chatbot** is a powerful tool designed for fast, accurate, and
 
 ## 🛠️ Installation & Setup
 
-### 1️⃣ Clone the Repository & Install Dependencies
-
+### 1. Clone the Repository & Install Dependencies
+Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/AhmadHammad21/DeepSeek-RAG-ChatBot
 cd DeepSeek-RAG-ChatBot
 ```
 
-# Create and activate a virtual environment
+### 2. Create and activate a virtual environment
 ### Windows
 ```bash
 python -m venv venv
@@ -30,60 +29,64 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+### Install dependencies
 ```bash
-# Install dependencies
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Install & Set Up Ollama
-
+### 3. Install & Set Up Ollama
 Ollama is required to run DeepSeek-7B.
 
-Installation:
+Installation on # Linux/macOS:
+```bash
 
-# Linux/macOS
 curl -fsSL https://ollama.com/install.sh | sh
 
-🔗 Download Ollama → https://ollama.com/
+```
+Check out this link
 
 Pull the required model:
-
+```bash
 ollama pull deepseek-r1:7b
+```
 
-### 3️⃣ (Optional) Enable LangSmith for Model Monitoring
+### 4. (Optional) Enable LangSmith for Model Monitoring
 
 To enable LangSmith tracing, create a .env file and add your API key and project name:
-
+```bash
 LANGSMITH_TRACING=true
 LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
 LANGSMITH_API_KEY="YOUR_API_KEY"
 LANGSMITH_PROJECT="YOUR_PROJECT_NAME"
+```
 
-🚀 Running the Chatbot
+# 🚀 Running the Chatbot
 
-Run the Streamlit Chatbot UI
-
+### Run the Streamlit Chatbot UI
+```bash
 streamlit run app.py
-
+```
 🖼️ Example:
+[Streamlit UI Screenshot](images/streamlit.png)
 
 
-
-Run the FastAPI Server
-
+### Run the FastAPI Server
+```bash
 uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+```
+📌 Access Swagger API Documentation: http://localhost:8000/docs
+🖼️ Example:
+[Swagger UI Screenshot](images/swagger.png)
 
-📌 Access Swagger API Documentation: http://localhost:8000/docs🖼️ Example:
 
-
-
-Run via Docker
-
+### Run via Docker
+```bash
 # Build the Docker image
 docker build -t rag-api .
 
 # Run the container
 docker run -p 8000:8000 rag-api
+```
 
 📌 How It Works
 
