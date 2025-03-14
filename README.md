@@ -5,6 +5,17 @@
 
 The **DeepSeek RAG Chatbot** is a powerful tool designed for fast, accurate, and explainable retrieval of information from PDFs. Leveraging **DeepSeek-7B**, **FAISS**, and **Chat History Integration**, this chatbot provides a seamless experience for document-based question answering and information retrieval.
 
+## 🛠️ Tech Stack
+
+- **Core Model**: DeepSeek-7B
+- **Framework**: Python
+- **Model Deployment**: Ollama
+- **Retrieval & Generation**: LangChain
+- **Monitoring & Debugging**: LangSmith
+- **UI Framework**: Streamlit
+- **API Framework**: FastAPI
+- **Vector Database**: FAISS
+- **Containerization**: Docker
 ---
 
 ## 🛠️ Installation & Setup
