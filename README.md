@@ -8,6 +8,7 @@ The **DeepSeek RAG Chatbot** is a powerful tool designed for fast, accurate, and
 ## 🛠️ Tech Stack
 
 - **Core Model**: DeepSeek-7B
+- **Embedding Model**: paraphrase-multilingual-MiniLM-L12-v2
 - **Framework**: Python
 - **Model Deployment**: Ollama
 - **Retrieval & Generation**: LangChain
